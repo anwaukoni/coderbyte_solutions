@@ -7,7 +7,7 @@ function SimpleAdding(num){
   for (var i=0; i<num; i++){
     if (i<=num){
     	results=results+(i+1);
-  }
+  	}
   }
   return results; 
 }

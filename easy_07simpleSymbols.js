@@ -11,12 +11,9 @@ function SimpleSymbols(str) {
  
   for (var i=0; i<strPad.length; i++){
    if(stringToMatch.test(strPad[i])){
-      
-     //if (strPad[i+1]=="+" && strPad[i-1]=="+")
-		if (strPad[i+1]!=="+" || strPad[i-1]!=="+")
- 
-          return false;
-      
+  		if (strPad[i+1]!=="+" || strPad[i-1]!=="+")
+   
+          return false;      
     }
   }
   	return true; 

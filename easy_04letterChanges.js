@@ -12,7 +12,6 @@ function LetterChanges(str) {
     
     for(var i=0; i<str.length; i++){
       if (oldAlpha.indexOf(str[i])!==-1){
-        //var index=oldAlpha.indexOf(str[i]);
         answer+=newAlpha.charAt(oldAlpha.indexOf(str[i]));
       }else{
         answer+=str[i];

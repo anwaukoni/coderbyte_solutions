@@ -7,6 +7,5 @@ function CheckNums(num1,num2) {
   else if(num1<num2){
     return true;
   }
-  return false;
-      
+  return false;      
 }

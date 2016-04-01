@@ -2,14 +2,11 @@
 // each word. Words will be separated by only one space. 
 
 	function LetterCapitalize(str) { 
-
-		var Letter=[];
-		Letter=str.split(" ");
+		
+	var Letter=str.split(" ");
 
 		for (var i=0; i<Letter.length; i++){
 			Letter[i]=Letter[i].charAt(0).toUpperCase() + Letter[i].substring(1);
-		}
-		  
-		return Letter.join(" "); 
-	     
+		}  
+	return Letter.join(" "); 
 	}
